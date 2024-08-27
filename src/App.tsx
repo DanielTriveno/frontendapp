@@ -1,11 +1,8 @@
-import { BrowserRouter } from "react-router-dom";
-import AppRouter from "./routes";
+import ChallengeIntro from "./pages/weeklychallenges/ChallengeIntro";
 
 function App(){
   return (
-    <BrowserRouter>
-    <AppRouter/>
-    </BrowserRouter>
+    <ChallengeIntro />
   );
 }
 export default App;
